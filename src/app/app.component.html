@@ -1,3 +1,6 @@
-<app-clock-comp></app-clock-comp>
+<app-clock-comp [hidden]="isShowClock"></app-clock-comp>
 
-<app-date-comp></app-date-comp>
+<app-date-comp [hidden]="isShowDate"></app-date-comp>
+
+<input id="clockBtn" type="button" (click)="toggleClock()" value="Clock" />
+<input id="dateBtn" type="button" (click)="toggleDate()" value="Date" />

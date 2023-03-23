@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'clock';
+
+  isShowClock = false
+  isShowDate = false
+
+  toggleClock(){
+    this.isShowClock = !this.isShowClock
+  }
+
+  toggleDate(){
+    this.isShowDate = !this.isShowDate
+  }
+
 }

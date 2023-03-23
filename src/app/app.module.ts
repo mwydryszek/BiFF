@@ -19,4 +19,6 @@ import { DateCompComponent } from './date-comp/date-comp.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+}
